@@ -1,0 +1,63 @@
+body{
+	font-family: 'Catamaran', sans-serif;
+	color: #282d33;	
+}
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+header{
+	background-color: #fff;
+}
+
+#header-top{
+	background-image: url("../img/bg-services-title.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 200px 200px 200px 200px;
+	color: #fff;
+}
+
+
+#services{
+	align-content: center;
+	text-align: center;
+	padding: 20px 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#see{
+	padding: 80px 200px 20px 200px;
+	text-align: center;
+	align-content: center;
+	color: #f7f7f7;
+}
+
+
+#see .title{
+	font-size: 37px;
+	font-weight: 500;
+}
+
+
+#see img{
+	width: 240px;
+}
+
+#see .row{
+	padding: 100px 50px 50px 50px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
